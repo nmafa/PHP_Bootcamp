@@ -3,15 +3,51 @@ html{
 	margin: 0;
 	padding: 0;
 }
-.pad1{
-	padding: 20;
-	background-color: rgb(143, 142, 142);
-	width: 700px;
-	height: 150px;
-	margin-left: 300px;
+
+.images{
+	text-align: center;
+	display: flex;
+	margin: auto;
+
+}
+body{
+	background: rgb(80, 80, 80)
+}
+.bor1{
+	padding: 20px;
+	background-color: rgb(144, 144, 144);
+	width: 1200px;
+	height: 100px;
+	margin-left: 200px;
 	border-radius: 10px;
+	box-shadow: 10px 10px black;
 	
 }
 .D42{
 	position: relative;
+	display: grid;
+}
+.close{
+	position: absolute;
+	display: grid;
+	margin-left: 1150px;
+}
+.container2{
+	background-color: rgb(144, 144, 144);
+	width: 150px;
+	height: 400px;
+	border-radius: 10px;
+	box-shadow: 10px 10px;
+	margin-left: 250px
+	
+}
+.bor2{
+	background-color: inherit;
+	width: inherit;
+	height: inherit;
+	margin-left: 1000px;
+	margin-top: 30px;
+	box-shadow: inherit;
+	border-radius: inherit;
+
 }
